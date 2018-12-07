@@ -211,17 +211,16 @@ $graph->Stroke('img/' . $nom['id'] . '.png');
 <div class="container">
     <h1 class="text-center text-white mt-5"> Assistance de vie de <?php echo $_GET['nom'];?> </h1>
 
-    <a class="btn btn-success" href="download.php?id=<?= $id_user['id']?>">Télécharger les données</a>
+    <a class="btn btn-info w-100" href="download.php?id=<?= $id_user['id']?>">Télécharger les données</a>
     <div class="container">
 
-        <button type="button" class="btn btn-info w-100 mt-5"> Actualiser les données</button>
 
         <h2 class="text-center mt-5 text-<?php echo $colorbaractivite;?>    ">
             Activité
         </h2>
 
         <div class="progress mt-5 mb-5 ">
-            <div class="progress-bar bg-<?php echo $colorbaractivite;?> " role="progressbar" style="width: <?php echo $activite;?>%;" aria-valuenow="<?php echo $activite;?>" aria-valuemin="0" aria-valuemax="100"><?php echo $activite;?></div>
+            <div class="progress-bar bg-<?php echo $colorbaractivite;?> " role="progressbar" style="width: <?php echo $activite;?>%;" aria-valuenow="<?php echo $activite;?>" aria-valuemin="0" aria-valuemax="100"><?php echo $activite;?>%</div>
         </div>
 
         <h2 class="text-center text-<?php echo $colorbarvigilance;?>">
@@ -230,7 +229,7 @@ $graph->Stroke('img/' . $nom['id'] . '.png');
 
 
         <div class="progress mt-5 mb-5">
-            <div class="progress-bar bg-<?php echo $colorbarvigilance;?>" role="progressbar" style="width: <?php echo $vigilance;?>%;" aria-valuenow="<?php echo $vigilance;?>" aria-valuemin="0" aria-valuemax="100"><?php echo $vigilance;?></div>
+            <div class="progress-bar bg-<?php echo $colorbarvigilance;?>" role="progressbar" style="width: <?php echo $vigilance;?>%;" aria-valuenow="<?php echo $vigilance;?>" aria-valuemin="0" aria-valuemax="100"><?php echo $vigilance;?>%</div>
         </div>
 
 
@@ -239,7 +238,7 @@ $graph->Stroke('img/' . $nom['id'] . '.png');
         </h2>
 
         <div class="progress mt-5 mb-5" >
-            <div class="progress-bar bg-<?php echo $colorbarconscience;?>" role="progressbar" style="width: <?php echo $conscience;?>%;" aria-valuenow="<?php echo $conscience;?>" aria-valuemin="0" aria-valuemax="100"><?php echo $conscience;?></div>
+            <div class="progress-bar bg-<?php echo $colorbarconscience;?>" role="progressbar" style="width: <?php echo $conscience;?>%;" aria-valuenow="<?php echo $conscience;?>" aria-valuemin="0" aria-valuemax="100"><?php echo $conscience;?>%</div>
         </div>
 
 
