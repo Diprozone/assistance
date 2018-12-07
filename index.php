@@ -101,21 +101,21 @@
   <div class="container">
 
     <div class="row align-content-center mt-5 mb-5">
-      <div class="col-sm-4 ">
-        <div class="card " style="width: 18rem;">
-          <img class=" card-img-top" src="img/steph.jpg" alt="Card image cap">
+      <div class="col-xl-4 h-100 mt-5">
+        <div class="card mx-auto h-100 " style="width: 18rem;">
+          <img class=" h-100 card-img-top" src="img/steph.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Stéphane Lévin</h5>
             <p class="card-text">Meme pas besoin de le présenter ! 15 ans de metier</p>
           </div>
           <div class="card-body h-25">
-            <a href="aventurier.php?nom=Levin" class="card-link"> d Comment va-t-il ?</a>
+            <a href="aventurier.php?nom=Levin" class="card-link">Comment va-t-il ?</a>
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top h-100" src="img/xav.jpg" alt="Card image cap">
+      <div class="col-xl-4 mt-5">
+        <div class="card mx-auto h-100" style="width: 18rem;">
+          <img class="card-img-top " src="img/xav.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Xavier Maisse</h5>
             <p class="card-text">Un de nos plus grand aventurier, il n'a peur de rien !</p>
@@ -125,8 +125,8 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
-        <div class="card" style="width: 18rem;">
+      <div class="col-xl-4 mt-5">
+        <div class="card mx-auto h-100" style="width: 18rem;">
           <img class="card-img-top" src="img/quentin.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Quentin Pla</h5>
@@ -140,8 +140,8 @@
     </div>
 
     <div class="row align-content-center mt-5">
-      <div class="col-sm-4">
-        <div class="card" style="width: 18rem;">
+      <div class="col-xl-4 mt-5">
+        <div class="card mx-auto h-100" style="width: 18rem;">
           <img class="card-img-top" src="img/tom.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Thomas Miceli</h5>
@@ -152,8 +152,8 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
-        <div class="card" style="width: 18rem;">
+      <div class="col-xl-4 mt-5">
+        <div class="card mx-auto h-100" style="width: 18rem;">
           <img class="card-img-top" src="img/greg.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Grégory Nam</h5>
@@ -164,8 +164,8 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
-        <div class="card" style="width: 18rem;">
+      <div class="col-xl-4 mt-5">
+        <div class="card mx-auto h-100" style="width: 18rem;">
           <img class="card-img-top" src="img/axel.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Axel AMAM</h5>
